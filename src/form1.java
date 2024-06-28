@@ -9,7 +9,6 @@ public class form1 {
     private JTextField nombreTxt;
     private JButton aceptarBtn;
     private JLabel valida;
-    private JFrame frame;
     public form1() {
         aceptarBtn.addActionListener(new ActionListener() {
             @Override
