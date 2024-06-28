@@ -27,7 +27,7 @@ public class form1 {
                     formu.setMinimumSize(new Dimension(1000,768));
                     formu.pack();
                     formu.setVisible(true);
-                    mainPanel.setVisible(false);
+                    frame.setVisible(false);
                 }else {
                     valida.setText("Acceso denegado");
                 }
