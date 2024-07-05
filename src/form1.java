@@ -26,14 +26,7 @@ public class form1 extends JFrame{
                 String nombre1 = "Mateor", contrasena1 = "12345";
                 if (contrasena.equals(contrasena1) && nombre.equals(nombre1)) {
                     valida.setText("Acceso exitoso");
-                    JFrame formu = new JFrame();
-                    formu.setContentPane(new form2().menu2);
-                    formu.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-                    formu.setSize(1000, 768);
-                    formu.setPreferredSize(new Dimension(1000,768));
-                    formu.setMinimumSize(new Dimension(1000,768));
-                    formu.pack();
-                    formu.setVisible(true);
+                    new form2();
                     setVisible(false);
                 }else {
                     valida.setText("Acceso denegado");
