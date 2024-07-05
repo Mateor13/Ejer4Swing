@@ -3,13 +3,21 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class form1 {
+public class form1 extends JFrame{
     public JPanel mainPanel;
     private JPasswordField contrasenaTxt;
     private JTextField nombreTxt;
     private JButton aceptarBtn;
     private JLabel valida;
     public form1() {
+        setTitle("Login");
+        setContentPane(mainPanel);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(500, 300);
+        setPreferredSize(new Dimension(500,300));
+        setMinimumSize(new Dimension(500,300));
+        pack();
+        setVisible(true);
         aceptarBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -26,12 +34,10 @@ public class form1 {
                     formu.setMinimumSize(new Dimension(1000,768));
                     formu.pack();
                     formu.setVisible(true);
-                    mainPanel.setVisible(false);
+                    setVisible(false);
                 }else {
                     valida.setText("Acceso denegado");
                 }
-
-
             }
         });
     }
