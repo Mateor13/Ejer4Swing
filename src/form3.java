@@ -16,6 +16,7 @@ public class form3 extends JFrame {
         setPreferredSize(new Dimension(1000,768));
         setMinimumSize(new Dimension(1000,768));
         pack();
+        setLocationRelativeTo(null);
         setVisible(true);
         reg.addActionListener(new ActionListener() {
             @Override

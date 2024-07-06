@@ -18,6 +18,7 @@ public class form1 extends JFrame{
         setMinimumSize(new Dimension(500,300));
         pack();
         setVisible(true);
+        setLocationRelativeTo(null);
         aceptarBtn.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
