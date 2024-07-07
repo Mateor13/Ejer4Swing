@@ -16,6 +16,7 @@
         </constraints>
         <properties>
           <background color="-11973550"/>
+          <focusable value="false"/>
           <foreground color="-1"/>
           <text value="Ver hobby"/>
         </properties>

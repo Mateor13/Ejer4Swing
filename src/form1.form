@@ -43,6 +43,7 @@
         </constraints>
         <properties>
           <background color="-10723229"/>
+          <focusable value="false"/>
           <foreground color="-1"/>
           <text value="Aceptar"/>
         </properties>
